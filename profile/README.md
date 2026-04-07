@@ -85,7 +85,7 @@ A publicly accessible severity heatmap displays complaint density and intensity 
 - **Spring Boot** — Main service, Spring Security, Spring Data JPA, Hibernate, JWT (jjwt 0.12.x)
 - **FastAPI** — ML microservice, Pydantic, Uvicorn
 - **YOLOv8n** — Binary trash detection (Ultralytics)
-- **Google Gemini** — Image analysis, severity scoring, verification comparison (`gemini-2.0-flash`)
+- **Google Gemini** — Image analysis, severity scoring, verification comparison (`gemini-3-flash`)
 - **PostgreSQL + PostGIS** — Primary database with geospatial extension
 - **React + TypeScript** — Frontend, Leaflet.js for maps, Tailwind CSS
 - **Cloudinary** — Image storage and retrieval
