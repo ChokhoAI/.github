@@ -91,7 +91,7 @@ sequenceDiagram
     Citizen->>CoreAPI: Submit Photo + GPS Data
     CoreAPI->>AI: Request Initial Validation
     
-    rect rgb(240, 240, 240)
+    rect rgba(255, 255, 255, 0.1)
         Note over AI: YOLOv8 Validation
         AI-->>AI: Detect Trash Presence (best.pt)
     end
@@ -100,7 +100,7 @@ sequenceDiagram
         AI-->>CoreAPI: Validation Failed
         CoreAPI-->>Citizen: Error: Invalid Image
     else Trash Detected
-        rect rgb(240, 240, 240)
+        rect rgba(255, 255, 255, 0.1)
             Note over AI: Gemini AI Deep Analysis
             AI-->>AI: Extract Type, Volume, Severity
             AI-->>AI: Indoor/Outdoor Classification
